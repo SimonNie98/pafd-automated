@@ -169,7 +169,8 @@ class Zlapp(Fudan):
                 {
                     "tw"      : "13",
                     "province": province,
-                    "city"    : city,
+                    # "city"    : city,
+                    "city"    : province,
                     "area"    : " ".join((province, city, district))
                 }
         )
